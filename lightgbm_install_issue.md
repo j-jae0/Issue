@@ -1,8 +1,8 @@
 ## LightGBM 설치 에러 메시지
-### 사용한 코드 : pip install lightgbm
-### 해결한 코드 : conda install -c conda-forge lightgbm
+**사용한 코드** : ```pip install lightgbm```
+**해결한 코드** : ```conda install -c conda-forge lightgbm```
 
-```
+```markdown
 ERROR: Command errored out with exit status 1:
      command: /Users/j-jae0/opt/anaconda3/bin/python -u -c 'import io, os, sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/2y/wzrmz7495bbdcn9t9svkxxsc0000gn/T/pip-install-sq93xc15/lightgbm_73dfb63895624b4cbf0a0a8e75d42724/setup.py'"'"'; __file__='"'"'/private/var/folders/2y/wzrmz7495bbdcn9t9svkxxsc0000gn/T/pip-install-sq93xc15/lightgbm_73dfb63895624b4cbf0a0a8e75d42724/setup.py'"'"';f = getattr(tokenize, '"'"'open'"'"', open)(__file__) if os.path.exists(__file__) else io.StringIO('"'"'from setuptools import setup; setup()'"'"');code = f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/2y/wzrmz7495bbdcn9t9svkxxsc0000gn/T/pip-record-jzmi_e2_/install-record.txt --single-version-externally-managed --compile --install-headers /Users/j-jae0/opt/anaconda3/include/python3.9/lightgbm
          cwd: /private/var/folders/2y/wzrmz7495bbdcn9t9svkxxsc0000gn/T/pip-install-sq93xc15/lightgbm_73dfb63895624b4cbf0a0a8e75d42724/
