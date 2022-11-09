@@ -1,4 +1,6 @@
-## 에러 메시지
+## LightGBM 설치 에러 메시지
+### 사용한 코드 : pip install lightgbm
+### 해결한 코드 : conda install -c conda-forge lightgbm
 
 ```
 ERROR: Command errored out with exit status 1:
